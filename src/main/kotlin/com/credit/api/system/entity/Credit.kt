@@ -18,7 +18,7 @@ data class Credit(
 
     @Enumerated val status: Status = Status.IN_PROGRESS,
 
-    @ManyToOne val customer: Custumer? = null,
+    @ManyToOne var customer: Custumer? = null,
 
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY) val id: Long? = null
     )
