@@ -3,9 +3,11 @@ spring:
     url: jdbc:h2:mem:credit_api_sytem_db
     username: bruno
   jpa:
-    hibernate:
-      ddl-auto: create-drop
+#    hibernate:
     show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
   h2:
     console:
       enabled: true

@@ -1,0 +1,1 @@
+ALTER TABLE custumer ADD income DECIMAL NOT NULL

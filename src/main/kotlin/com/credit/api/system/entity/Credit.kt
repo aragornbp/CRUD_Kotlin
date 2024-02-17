@@ -2,9 +2,9 @@ package com.credit.api.system.entity
 
 import java.math.BigDecimal
 import java.time.LocalDate
-import java.util.*
 import com.credit.api.system.enummeration.Status
 import jakarta.persistence.*
+import java.util.UUID
 
 @Entity
 data class Credit(
